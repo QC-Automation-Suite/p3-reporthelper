@@ -17837,9 +17837,9 @@
     "restore": {
       "projectUniqueName": "Report Helper Dispatcher",
       "projectName": "Report Helper Dispatcher",
-      "projectPath": "C:\\Revature\\p3\\p3-reporthelper\\.local",
+      "projectPath": "C:\\Revature\\p3\\p3-reporthelper\\Dispatcher\\.local",
       "packagesPath": "C:\\Users\\nryma\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\p3\\p3-reporthelper\\.local"
+      "outputPath": "C:\\Revature\\p3\\p3-reporthelper\\Dispatcher\\.local"
     },
     "frameworks": {
       "net5.0-windows7.0": {

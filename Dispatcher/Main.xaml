@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1160,1291</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1160,1322</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="27">
@@ -74,7 +74,7 @@
       <AssemblyReference>System.Collections</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="960,1226" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="960,1257" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="auditedBatches" />
       <Variable x:TypeArguments="x:Double" Name="trainingExpectation" />
@@ -94,17 +94,21 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Survey Response Excel Sheet workflow" sap:VirtualizedContainerService.HintSize="918,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Survey Response Excel Sheet.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Auditor1">Jon</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="CaliberSchedule">[auditedBatches]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Auditor1">
+          <Literal x:TypeArguments="x:String">Jon</Literal>
+        </InArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="CaliberSchedule">
+          <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="auditedBatches" />
+        </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[auditedBatches]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="918,982" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[auditedBatches]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="918,1013" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="884,862" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="884,893" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -130,34 +134,18 @@
               </ui:InvokeWorkflowFile>
               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Get Data From Survey workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Get Data From Survey.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
-                  <InArgument x:TypeArguments="x:String" x:Key="Name">
-                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="cstr(row(&quot;BATCHES&quot;))" />
-                  </InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="Week">
-                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="cstr(row(&quot;QC Wk&quot;))" />
-                  </InArgument>
-                  <OutArgument x:TypeArguments="x:Double" x:Key="TrainingSatisfaction">
-                    <VisualBasicReference x:TypeArguments="x:Double" ExpressionText="trainingSatisfaction" />
-                  </OutArgument>
-                  <OutArgument x:TypeArguments="x:Double" x:Key="Understanding">
-                    <VisualBasicReference x:TypeArguments="x:Double" ExpressionText="understanding" />
-                  </OutArgument>
-                  <OutArgument x:TypeArguments="x:Double" x:Key="HelpfulMaterials">
-                    <VisualBasicReference x:TypeArguments="x:Double" ExpressionText="helpuflMaterials" />
-                  </OutArgument>
-                  <OutArgument x:TypeArguments="x:Double" x:Key="Organization">
-                    <VisualBasicReference x:TypeArguments="x:Double" ExpressionText="organization" />
-                  </OutArgument>
-                  <OutArgument x:TypeArguments="x:Double" x:Key="QuestionsEncouraged">
-                    <VisualBasicReference x:TypeArguments="x:Double" ExpressionText="questionsEncouraged" />
-                  </OutArgument>
-                  <OutArgument x:TypeArguments="x:Double" x:Key="TrainingExpectation">
-                    <VisualBasicReference x:TypeArguments="x:Double" ExpressionText="trainingExpectation" />
-                  </OutArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="Name">[cstr(row("BATCHES"))]</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="Week">[cstr(row("QC Wk"))]</InArgument>
+                  <OutArgument x:TypeArguments="x:Double" x:Key="TrainingSatisfaction">[trainingSatisfaction]</OutArgument>
+                  <OutArgument x:TypeArguments="x:Double" x:Key="Understanding">[understanding]</OutArgument>
+                  <OutArgument x:TypeArguments="x:Double" x:Key="HelpfulMaterials">[helpuflMaterials]</OutArgument>
+                  <OutArgument x:TypeArguments="x:Double" x:Key="Organization">[organization]</OutArgument>
+                  <OutArgument x:TypeArguments="x:Double" x:Key="QuestionsEncouraged">[questionsEncouraged]</OutArgument>
+                  <OutArgument x:TypeArguments="x:Double" x:Key="TrainingExpectation">[trainingExpectation]</OutArgument>
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
             </Parallel>
-            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="842,410" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="842,441" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
               <ui:MultipleAssign.AssignOperations>
                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -238,6 +226,14 @@
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
                       <InArgument x:TypeArguments="x:Object">[row("QC Wk")]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:Object">[batchInfo("trainerName")]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:Object">["Jon"]</InArgument>
                     </ui:AssignOperation.Value>
                   </ui:AssignOperation>
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfnB8Jo9kF9O37i6/NmfQSpQ0wUZ1VM+uYxOTC5Z4AplphAPKuFKziZHN8WTijCK/sN6+qcworU49PY/KRcUog==",
+  "dgSpecHash": "ZhDsIrg9qJAQ5bq8a/Kbpn4K/JQYjujvvO0y6kdUcBHLkZSrpSpfjhgN/TYUvmAcuackueoXJwM/uGoiDmNcHQ==",
   "success": true,
-  "projectFilePath": "C:\\Revature\\p3\\p3-reporthelper\\.local\\",
+  "projectFilePath": "C:\\Revature\\p3\\p3-reporthelper\\Dispatcher\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\nryma\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
