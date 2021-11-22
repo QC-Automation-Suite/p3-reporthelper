@@ -17835,8 +17835,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Get Caliber Data",
-      "projectName": "Get Caliber Data",
+      "projectUniqueName": "Report Helper Dispatcher",
+      "projectName": "Report Helper Dispatcher",
       "projectPath": "C:\\Revature\\p3\\p3-reporthelper\\.local",
       "packagesPath": "C:\\Users\\nryma\\.nuget\\packages\\",
       "outputPath": "C:\\Revature\\p3\\p3-reporthelper\\.local"

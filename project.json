@@ -1,5 +1,5 @@
 {
-  "name": "Get Caliber Data",
+  "name": "Report Helper Dispatcher",
   "description": "Uses a batch name and week number to get information about QC results for that batch during that week",
   "main": "Main.xaml",
   "dependencies": {
