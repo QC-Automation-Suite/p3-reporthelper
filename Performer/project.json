@@ -4,6 +4,8 @@
   "main": "Main.xaml",
   "dependencies": {
     "BalaReva.Excel.Activities": "[2021.0.0]",
+    "FeatSystems.ActivityHtmlExtractor.Activities": "[1.0.0]",
+    "HtmlToPdf.Activities": "[1.4.6]",
     "PowerAutomateMockUp": "[1.2.0]",
     "UiPath.AddPicturetoPDF.Activities": "[1.3.0]",
     "UiPath.Excel.Activities": "[2.11.4]",
@@ -22,6 +24,7 @@
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -30,7 +33,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -56,5 +60,6 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
