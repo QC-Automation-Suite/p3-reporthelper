@@ -170,6 +170,15 @@
           }
         }
       },
+      "FeatSystems.ActivityHtmlExtractor.Activities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ActivityHtmlExtractor.dll": {}
+        }
+      },
       "Google.Apis/1.43.0": {
         "type": "package",
         "dependencies": {
@@ -256,6 +265,45 @@
         },
         "runtime": {
           "lib/net45/Google.Apis.PeopleService.v1.dll": {}
+        }
+      },
+      "HtmlRenderer.Core/1.5.1-beta1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/HtmlRenderer.dll": {}
+        }
+      },
+      "HtmlRenderer.PdfSharp/1.5.1-beta1": {
+        "type": "package",
+        "dependencies": {
+          "HtmlRenderer.Core": "1.5.1-beta1",
+          "PDFsharp": "1.50.4000-beta3b"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/HtmlRenderer.PdfSharp.dll": {}
+        }
+      },
+      "HtmlToPdf.Activities/1.4.6": {
+        "type": "package",
+        "dependencies": {
+          "HtmlRenderer.PdfSharp": "1.5.1-beta1"
+        },
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/HtmlToPdfConvertLibrary.Design.dll": {},
+          "lib/HtmlToPdfConvertLibrary.dll": {}
         }
       },
       "Humanizer.Core/2.4.2": {
@@ -3601,6 +3649,15 @@
           }
         }
       },
+      "FeatSystems.ActivityHtmlExtractor.Activities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ActivityHtmlExtractor.dll": {}
+        }
+      },
       "Google.Apis/1.43.0": {
         "type": "package",
         "dependencies": {
@@ -3687,6 +3744,45 @@
         },
         "runtime": {
           "lib/net45/Google.Apis.PeopleService.v1.dll": {}
+        }
+      },
+      "HtmlRenderer.Core/1.5.1-beta1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/HtmlRenderer.dll": {}
+        }
+      },
+      "HtmlRenderer.PdfSharp/1.5.1-beta1": {
+        "type": "package",
+        "dependencies": {
+          "HtmlRenderer.Core": "1.5.1-beta1",
+          "PDFsharp": "1.50.4000-beta3b"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/HtmlRenderer.PdfSharp.dll": {}
+        }
+      },
+      "HtmlToPdf.Activities/1.4.6": {
+        "type": "package",
+        "dependencies": {
+          "HtmlRenderer.PdfSharp": "1.5.1-beta1"
+        },
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/HtmlToPdfConvertLibrary.Design.dll": {},
+          "lib/HtmlToPdfConvertLibrary.dll": {}
         }
       },
       "Humanizer.Core/2.4.2": {
@@ -6960,6 +7056,17 @@
         "tools/install.ps1"
       ]
     },
+    "FeatSystems.ActivityHtmlExtractor.Activities/1.0.0": {
+      "sha512": "3mFoz5Ry2FmAOa+Fi3DlxTdGbo9CDuweIkqSfJT2M8NOzV0woZpNoba1/R6nU92JESbsc8RFsraMs0pBG0LfSQ==",
+      "type": "package",
+      "path": "featsystems.activityhtmlextractor.activities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "featsystems.activityhtmlextractor.activities.1.0.0.nupkg.sha512",
+        "featsystems.activityhtmlextractor.activities.nuspec",
+        "lib/ActivityHtmlExtractor.dll"
+      ]
+    },
     "Google.Apis/1.43.0": {
       "sha512": "obrhmOs3G1NdKb6vJukj5nls3FJ8qcheSugvUDA5fHA+4sb9hOvSgtR4rzSiBFTSn30d8C9aJAUFlBtcFi4ltA==",
       "type": "package",
@@ -7109,6 +7216,59 @@
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.pdb",
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
+      ]
+    },
+    "HtmlRenderer.Core/1.5.1-beta1": {
+      "sha512": "HmMbhQuB5oEZvKa5kBFL7zWEdpzN9qpj0aO48VQ5A5kAuz1Cd0tzf37tek81K9IqcOo32MZhD3HqsSKM3R1uBQ==",
+      "type": "package",
+      "path": "htmlrenderer.core/1.5.1-beta1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlrenderer.core.1.5.1-beta1.nupkg.sha512",
+        "htmlrenderer.core.nuspec",
+        "lib/net20/HtmlRenderer.dll",
+        "lib/net20/HtmlRenderer.pdb",
+        "lib/net30/HtmlRenderer.dll",
+        "lib/net30/HtmlRenderer.pdb",
+        "lib/net35-client/HtmlRenderer.dll",
+        "lib/net35-client/HtmlRenderer.pdb",
+        "lib/net40-client/HtmlRenderer.dll",
+        "lib/net40-client/HtmlRenderer.pdb",
+        "lib/net45/HtmlRenderer.dll",
+        "lib/net45/HtmlRenderer.pdb"
+      ]
+    },
+    "HtmlRenderer.PdfSharp/1.5.1-beta1": {
+      "sha512": "3+w+AJDiDVzYRk3K3jvTo+4Lf4h6fsnUDEf6hWB1dBouWolaTAHRCdNNO8r/Du3cFlfNeeMXqIUuNUEuINsvHA==",
+      "type": "package",
+      "path": "htmlrenderer.pdfsharp/1.5.1-beta1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlrenderer.pdfsharp.1.5.1-beta1.nupkg.sha512",
+        "htmlrenderer.pdfsharp.nuspec",
+        "lib/net20/HtmlRenderer.PdfSharp.dll",
+        "lib/net20/HtmlRenderer.PdfSharp.pdb",
+        "lib/net35-client/HtmlRenderer.PdfSharp.dll",
+        "lib/net35-client/HtmlRenderer.PdfSharp.pdb",
+        "lib/net40-client/HtmlRenderer.PdfSharp.dll",
+        "lib/net40-client/HtmlRenderer.PdfSharp.pdb",
+        "lib/net45/HtmlRenderer.PdfSharp.dll",
+        "lib/net45/HtmlRenderer.PdfSharp.pdb",
+        "readme.txt"
+      ]
+    },
+    "HtmlToPdf.Activities/1.4.6": {
+      "sha512": "ke7cmel3uMbPG8Kl1e8de4YoyN1IdL9is1edz+nDZ9WSG8jtRpx61fQf2I6boCs+0mqKthmE810VByhKFld+Zw==",
+      "type": "package",
+      "path": "htmltopdf.activities/1.4.6",
+      "files": [
+        ".nupkg.metadata",
+        "htmltopdf.activities.1.4.6.nupkg.sha512",
+        "htmltopdf.activities.nuspec",
+        "lib/HtmlToPdfConvertLibrary.Design.dll",
+        "lib/HtmlToPdfConvertLibrary.dll"
       ]
     },
     "Humanizer.Core/2.4.2": {
@@ -13415,6 +13575,8 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "BalaReva.Excel.Activities >= 2021.0.0 <= 2021.0.0",
+      "FeatSystems.ActivityHtmlExtractor.Activities >= 1.0.0 <= 1.0.0",
+      "HtmlToPdf.Activities >= 1.4.6 <= 1.4.6",
       "PowerAutomateMockUp >= 1.2.0 <= 1.2.0",
       "UiPath.AddPicturetoPDF.Activities >= 1.3.0 <= 1.3.0",
       "UiPath.Excel.Activities >= 2.11.4 <= 2.11.4",
@@ -13444,6 +13606,16 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[2021.0.0, 2021.0.0]"
+          },
+          "FeatSystems.ActivityHtmlExtractor.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
+          "HtmlToPdf.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.6, 1.4.6]"
           },
           "PowerAutomateMockUp": {
             "include": "Runtime",

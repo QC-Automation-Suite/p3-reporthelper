@@ -8,12 +8,37 @@
       "Assemblies": [
         "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.Base.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.Utilities.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoftofficecore/15.0.0\\lib/net35/Office.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0"
+    },
+    {
+      "Package": {
+        "Id": "FeatSystems.ActivityHtmlExtractor.Activities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities/1.0.0\\lib/ActivityHtmlExtractor.dll"
+      ],
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "HtmlToPdf.Activities",
+        "Version": "1.4.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.core/1.5.1-beta1\\lib/net45/HtmlRenderer.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.pdfsharp/1.5.1-beta1\\lib/net45/HtmlRenderer.PdfSharp.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities/1.4.6\\lib/HtmlToPdfConvertLibrary.Design.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities/1.4.6\\lib/HtmlToPdfConvertLibrary.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp/1.51.5185-beta\\lib/net20/PdfSharp.Charting.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp/1.51.5185-beta\\lib/net20/PdfSharp.dll"
+      ],
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6"
     },
     {
       "Package": {
@@ -43,18 +68,18 @@
         "C:\\Users\\nryma\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.visualstudio.ole.interop/16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Office.Interop.Excel.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4"
@@ -65,10 +90,10 @@
         "Version": "1.12.3"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
@@ -108,8 +133,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.MainSessionServer.Shared.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
@@ -157,8 +182,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient/1.0.0-20210921.1\\lib/net461/ConnectionClient.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
@@ -178,8 +203,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.Design.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1"
@@ -251,10 +276,10 @@
         "C:\\Users\\nryma\\.nuget\\packages\\aforge.imaging/2.2.5\\lib/AForge.Imaging.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\aforge.math/2.2.5\\lib/AForge.Math.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
@@ -289,19 +314,19 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.CV.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.CV.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationCore.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9"
     },
@@ -345,8 +370,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3"
@@ -475,6 +500,11 @@
       "Version": "3.8.1",
       "Dependencies": []
     },
+    "FeatSystems.ActivityHtmlExtractor.Activities": {
+      "Id": "FeatSystems.ActivityHtmlExtractor.Activities",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
     "Google.Apis": {
       "Id": "Google.Apis",
       "Version": "1.43.0",
@@ -552,6 +582,35 @@
         {
           "Item1": "Google.Apis.Auth",
           "Item2": "[1.43.0, )"
+        }
+      ]
+    },
+    "HtmlRenderer.Core": {
+      "Id": "HtmlRenderer.Core",
+      "Version": "1.5.1-beta1",
+      "Dependencies": []
+    },
+    "HtmlRenderer.PdfSharp": {
+      "Id": "HtmlRenderer.PdfSharp",
+      "Version": "1.5.1-beta1",
+      "Dependencies": [
+        {
+          "Item1": "HtmlRenderer.Core",
+          "Item2": "[1.5.1-beta1, )"
+        },
+        {
+          "Item1": "PDFsharp",
+          "Item2": "[1.50.4000-beta3b, )"
+        }
+      ]
+    },
+    "HtmlToPdf.Activities": {
+      "Id": "HtmlToPdf.Activities",
+      "Version": "1.4.6",
+      "Dependencies": [
+        {
+          "Item1": "HtmlRenderer.PdfSharp",
+          "Item2": "[1.5.1-beta1, )"
         }
       ]
     },
@@ -2336,8 +2395,8 @@
       "Assemblies": [
         "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Base.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Utilities.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Utilities.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0"
     },
@@ -2397,13 +2456,23 @@
         "Version": "3.8.1"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1"
+    },
+    {
+      "Package": {
+        "Id": "FeatSystems.ActivityHtmlExtractor.Activities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities\\1.0.0\\lib\\ActivityHtmlExtractor.dll"
+      ],
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities\\1.0.0"
     },
     {
       "Package": {
@@ -2411,8 +2480,8 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\google.apis\\1.43.0"
     },
@@ -2422,8 +2491,8 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth\\1.43.0"
     },
@@ -2466,6 +2535,37 @@
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876\\lib\\net45\\Google.Apis.PeopleService.v1.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876"
+    },
+    {
+      "Package": {
+        "Id": "HtmlRenderer.Core",
+        "Version": "1.5.1-beta1"
+      },
+      "Assemblies": [
+        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.core\\1.5.1-beta1\\lib\\net45\\HtmlRenderer.dll"
+      ],
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.core\\1.5.1-beta1"
+    },
+    {
+      "Package": {
+        "Id": "HtmlRenderer.PdfSharp",
+        "Version": "1.5.1-beta1"
+      },
+      "Assemblies": [
+        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.pdfsharp\\1.5.1-beta1\\lib\\net45\\HtmlRenderer.PdfSharp.dll"
+      ],
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.pdfsharp\\1.5.1-beta1"
+    },
+    {
+      "Package": {
+        "Id": "HtmlToPdf.Activities",
+        "Version": "1.4.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6\\lib\\HtmlToPdfConvertLibrary.Design.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6\\lib\\HtmlToPdfConvertLibrary.dll"
+      ],
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6"
     },
     {
       "Package": {
@@ -3028,10 +3128,10 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1"
     },
@@ -3842,8 +3942,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Microsoft.Vbe.Interop.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4"
@@ -3859,8 +3959,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\Microsoft.Office.Interop.Word.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.MainSessionServer.Shared.dll"
       ],
@@ -3873,8 +3973,8 @@
       },
       "Assemblies": [
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1"
@@ -3909,8 +4009,8 @@
       "Assemblies": [
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Activities.Design.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Telemetry.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1"
     },
@@ -3967,11 +4067,11 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.CV.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.CV.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationCore.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.Wizards.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9"
@@ -3997,8 +4097,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\Microsoft.Office.Interop.Word.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3"
