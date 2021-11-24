@@ -2,7 +2,7 @@
   <x:Members>
     <x:Property Name="batchinfo" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1160,6249</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1290.4,5929.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -90,16 +90,15 @@
       <AssemblyReference>ActivityHtmlExtractor</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="573,6184" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdDVIZ5UQ09XRkpFMkE4S0tDT0tTVzNNWFFQUFg5NC4u">
+  <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="572,5864.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdDVIZ5UQ09XRkpFMkE4S0tDT0tTVzNNWFFQUFg5NC4u">
     <ui:OpenBrowser.Body>
       <ActivityAction x:TypeArguments="x:Object">
         <ActivityAction.Argument>
           <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
         </ActivityAction.Argument>
-        <Sequence DisplayName="Fill In MS Form" sap:VirtualizedContainerService.HintSize="539,6083" sap2010:WorkflowViewState.IdRef="Sequence_7">
+        <Sequence DisplayName="Fill In MS Form" sap:VirtualizedContainerService.HintSize="538.4,5762.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="enterComment" />
             <Variable x:TypeArguments="x:String" Name="batchName" />
@@ -108,14 +107,14 @@
             <Variable x:TypeArguments="x:String" Name="name" />
             <Variable x:TypeArguments="x:String" Name="htmlCode" />
             <Variable x:TypeArguments="x:String" Name="jsOutput" />
-            <Variable x:TypeArguments="x:String" Default="[batchName + batchWeek]" Name="saveName" />
+            <Variable x:TypeArguments="x:String" Name="saveName" />
           </Sequence.Variables>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="497,162" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="496.8,194.4" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
             <ui:MultipleAssign.AssignOperations>
               <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                 <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -142,10 +141,18 @@
                     <InArgument x:TypeArguments="x:String">[batchinfo("trainerName").toString]</InArgument>
                   </ui:AssignOperation.Value>
                 </ui:AssignOperation>
+                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                  <ui:AssignOperation.To>
+                    <OutArgument x:TypeArguments="x:String">[saveName]</OutArgument>
+                  </ui:AssignOperation.To>
+                  <ui:AssignOperation.Value>
+                    <InArgument x:TypeArguments="x:String">[(batchName).Replace("/"," ") + (batchWeek)]</InArgument>
+                  </ui:AssignOperation.Value>
+                </ui:AssignOperation>
               </scg:List>
             </ui:MultipleAssign.AssignOperations>
           </ui:MultipleAssign>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV  SelectId_0_placeho...'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV  SelectId_0_placeho...'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -167,7 +174,7 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_22" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_22" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -189,7 +196,7 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_25" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_25" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -211,15 +218,15 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="497,51" sap2010:WorkflowViewState.IdRef="CommentOut_10">
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="496.8,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_10">
             <ui:CommentOut.Body>
-              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="538.4,384" sap2010:WorkflowViewState.IdRef="Sequence_18">
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="538.4,376.8" sap2010:WorkflowViewState.IdRef="Sequence_18">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchName]" sap:VirtualizedContainerService.HintSize="496.8,291.2" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+                <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchName]" sap:VirtualizedContainerService.HintSize="496.8,284" sap2010:WorkflowViewState.IdRef="Switch`1_2">
                   <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" x:Key="Sept24 Java with Automation (1002)" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
@@ -406,8 +413,8 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:CommentOut>
-          <ui:Comment sap:VirtualizedContainerService.HintSize="497,55" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//Question #2 - Multiple Choice " />
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV  SelectId_1_placeho...'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+          <ui:Comment sap:VirtualizedContainerService.HintSize="496.8,56" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//Question #2 - Multiple Choice " />
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV  SelectId_1_placeho...'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -429,7 +436,7 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchinfo(&quot;week&quot;).ToString]" sap:VirtualizedContainerService.HintSize="497,512" sap2010:WorkflowViewState.IdRef="Switch`1_3">
+          <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchinfo(&quot;week&quot;).ToString]" sap:VirtualizedContainerService.HintSize="496.8,164" sap2010:WorkflowViewState.IdRef="Switch`1_3">
             <Switch.Default>
               <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="434,309" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_3" NumberOfTimes="[cint(batchinfo(&quot;week&quot;)) + 2]" StartAt="1">
                 <ui:RepeatNumberOfTimesX.Body>
@@ -459,7 +466,7 @@
                 </sap:WorkflowViewStateService.ViewState>
               </ui:RepeatNumberOfTimesX>
             </Switch.Default>
-            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" x:Key="A" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="SendHotkey_12" Key="down" KeyModifiers="None" SpecialKey="True">
+            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" x:Key="A" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334.4,153.6" sap2010:WorkflowViewState.IdRef="SendHotkey_12" Key="down" KeyModifiers="None" SpecialKey="True">
               <ui:SendHotkey.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bda4bcdf-06c8-492e-b8cb-096f8e7a0062" InformativeScreenshot="3d1d2916e5b8154308b7bc64b597f42b" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='QC-Report (Clone Copy) - Personal - Microsoft​ Edge' /&gt;&#xA;&lt;wnd cls='Intermediate D3D Window' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
@@ -471,7 +478,7 @@
                 </ui:Target>
               </ui:SendHotkey.Target>
             </ui:SendHotkey>
-            <ui:RepeatNumberOfTimesX x:Key="B" sap:VirtualizedContainerService.HintSize="434,311" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="2" StartAt="1">
+            <ui:RepeatNumberOfTimesX x:Key="B" sap:VirtualizedContainerService.HintSize="433.6,311.2" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="2" StartAt="1">
               <ui:RepeatNumberOfTimesX.Body>
                 <ActivityAction x:TypeArguments="x:Int32">
                   <ActivityAction.Argument>
@@ -493,7 +500,7 @@
               </ui:RepeatNumberOfTimesX.Body>
             </ui:RepeatNumberOfTimesX>
           </Switch>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_28" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_28" KeyModifiers="None" MouseButton="BTN_LEFT">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -515,8 +522,8 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <ui:Comment sap:VirtualizedContainerService.HintSize="497,55" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Write your comments in the Text property" />
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_23" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+          <ui:Comment sap:VirtualizedContainerService.HintSize="496.8,56" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Write your comments in the Text property" />
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_23" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -538,7 +545,7 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="497,106" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -566,14 +573,14 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:Click>
-          <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchinfo(&quot;batchStatus&quot;).ToString]" sap:VirtualizedContainerService.HintSize="497,355" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+          <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchinfo(&quot;batchStatus&quot;).ToString]" sap:VirtualizedContainerService.HintSize="496.8,210.4" sap2010:WorkflowViewState.IdRef="Switch`1_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Poor" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Poor" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -585,7 +592,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3919f63-ecee-43f9-b26b-849b32175ed2" InformativeScreenshot="d366ff081175ea51227d854adda535f0" Selector="&lt;webctrl aria-role='radio' tag='SPAN' idx='1' /&gt;&#xD;&#xA;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3919f63-ecee-43f9-b26b-849b32175ed2" InformativeScreenshot="d366ff081175ea51227d854adda535f0" Selector="&lt;webctrl aria-role='radio' tag='SPAN' idx='1' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -595,7 +602,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Average" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Average" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -607,7 +614,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="35d4504c-3cc2-4ca7-9b69-84ae4b668e9b" InformativeScreenshot="2ef45afb0163aa1ced34bc7eee010e55" Selector="&lt;webctrl aria-role='radio' idx='1' tabindex='-1' tag='SPAN' /&gt;&#xD;&#xA;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="35d4504c-3cc2-4ca7-9b69-84ae4b668e9b" InformativeScreenshot="2ef45afb0163aa1ced34bc7eee010e55" Selector="&lt;webctrl aria-role='radio' idx='1' tabindex='-1' tag='SPAN' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -617,7 +624,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Good" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Good" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -629,7 +636,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d3b1edeb-3db5-45c0-b301-890cab4d03ef" InformativeScreenshot="0bd78ace0fd32ced50f214222894e313" Selector="&lt;webctrl aria-role='radio' idx='3' tabindex='-1' tag='SPAN' /&gt;&#xD;&#xA;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d3b1edeb-3db5-45c0-b301-890cab4d03ef" InformativeScreenshot="0bd78ace0fd32ced50f214222894e313" Selector="&lt;webctrl aria-role='radio' idx='3' tabindex='-1' tag='SPAN' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -639,7 +646,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Superstar" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" x:Key="Superstar" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -651,7 +658,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e78adb07-aafd-4e9f-9ba5-ab2ea2e0ac76" InformativeScreenshot="41e4bbf7fe1ccea28a8ff74de3aa83e4" Selector="&lt;webctrl aria-role='radio' idx='4' tabindex='-1' tag='SPAN' /&gt;&#xD;&#xA;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e78adb07-aafd-4e9f-9ba5-ab2ea2e0ac76" InformativeScreenshot="41e4bbf7fe1ccea28a8ff74de3aa83e4" Selector="&lt;webctrl aria-role='radio' idx='4' tabindex='-1' tag='SPAN' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -662,7 +669,7 @@
               </ui:Click.Target>
             </ui:Click>
           </Switch>
-          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="497,238" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="QC Attendance" Title="Entering Comments">
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="496.8,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="QC Attendance" Title="Entering Comments">
             <ui:InputDialog.Result>
               <OutArgument x:TypeArguments="x:String">[enterComment]</OutArgument>
             </ui:InputDialog.Result>
@@ -821,19 +828,48 @@
               </ui:Target>
             </ui:TypeInto.Target>
           </ui:TypeInto>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'msedge.exe  Save As'" sap:VirtualizedContainerService.HintSize="496.8,107.2" sap2010:WorkflowViewState.IdRef="Click_27" KeyModifiers="None" MouseButton="BTN_LEFT">
-            <ui:Click.CursorPosition>
-              <ui:CursorPosition Position="Center">
-                <ui:CursorPosition.OffsetX>
-                  <InArgument x:TypeArguments="x:Int32" />
-                </ui:CursorPosition.OffsetX>
-                <ui:CursorPosition.OffsetY>
-                  <InArgument x:TypeArguments="x:Int32" />
-                </ui:CursorPosition.OffsetY>
-              </ui:CursorPosition>
-            </ui:Click.CursorPosition>
-            <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="34fdc524-0ac1-4d65-ab7e-874fbc6bb5c0" InformativeScreenshot="022add573a6a8acaaf4e46f2e4cf46c1">
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="496.8,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_11">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'msedge.exe  Save As'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_27" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="34fdc524-0ac1-4d65-ab7e-874fbc6bb5c0" InformativeScreenshot="022add573a6a8acaaf4e46f2e4cf46c1">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+              </Sequence>
+            </ui:CommentOut.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:CommentOut>
+          <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="496.8,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_23" SimulateType="False" Text="C:\Users\Public\Downloads">
+            <ui:TypeInto.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3b13d67f-9458-4426-9c24-bdef4aa52116" InformativeScreenshot="343f95a97b7dfd7ff78e38c3a6aa1c11" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Save As' /&gt;&#xD;&#xA;&lt;wnd ctrlid='1001' /&gt;&#xD;&#xA;">
                 <ui:Target.TimeoutMS>
                   <InArgument x:TypeArguments="x:Int32" />
                 </ui:Target.TimeoutMS>
@@ -841,11 +877,11 @@
                   <InArgument x:TypeArguments="ui:WaitForReady" />
                 </ui:Target.WaitForReady>
               </ui:Target>
-            </ui:Click.Target>
-          </ui:Click>
-          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="496.8,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_22" Text="[saveName]">
+            </ui:TypeInto.Target>
+          </ui:TypeInto>
+          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="496.8,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_22" SimulateType="False" Text="[saveName]">
             <ui:TypeInto.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3b13d67f-9458-4426-9c24-bdef4aa52116" InformativeScreenshot="343f95a97b7dfd7ff78e38c3a6aa1c11" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Save As' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' idx='1' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' idx='1' /&gt;&lt;wnd ctrlid='1001' /&gt;">
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3b13d67f-9458-4426-9c24-bdef4aa52116" InformativeScreenshot="343f95a97b7dfd7ff78e38c3a6aa1c11" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Save As' /&gt;&#xA;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' idx='1' /&gt;&#xA;&lt;wnd aaname='File name:' cls='ComboBox' idx='1' /&gt;&#xA;&lt;wnd ctrlid='1001' /&gt;&#xA;&lt;nav up='1' /&gt;&#xA;&lt;wnd ctrlid='1001' /&gt;&#xA;">
                 <ui:Target.TimeoutMS>
                   <InArgument x:TypeArguments="x:Int32" />
                 </ui:Target.TimeoutMS>
