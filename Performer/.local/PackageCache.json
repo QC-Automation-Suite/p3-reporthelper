@@ -17,200 +17,6 @@
     },
     {
       "Package": {
-        "Id": "FeatSystems.ActivityHtmlExtractor.Activities",
-        "Version": "1.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities/1.0.0\\lib/ActivityHtmlExtractor.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities\\1.0.0"
-    },
-    {
-      "Package": {
-        "Id": "HtmlToPdf.Activities",
-        "Version": "1.4.6"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.core/1.5.1-beta1\\lib/net45/HtmlRenderer.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.pdfsharp/1.5.1-beta1\\lib/net45/HtmlRenderer.PdfSharp.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities/1.4.6\\lib/HtmlToPdfConvertLibrary.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities/1.4.6\\lib/HtmlToPdfConvertLibrary.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp/1.51.5185-beta\\lib/net20/PdfSharp.Charting.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp/1.51.5185-beta\\lib/net20/PdfSharp.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6"
-    },
-    {
-      "Package": {
-        "Id": "PowerAutomateMockUp",
-        "Version": "1.2.0"
-      },
-      "Assemblies": [],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\powerautomatemockup\\1.2.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.AddPicturetoPDF.Activities",
-        "Version": "1.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.addpicturetopdf.activities/1.3.0\\lib/AddPicturetoPDF.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.addpicturetopdf.activities\\1.3.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.11.4"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.visualstudio.ole.interop/16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Office.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.12.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client/4.32.0\\lib/net461/Microsoft.Identity.Client.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop/4.32.0\\lib/net461/Microsoft.Identity.Client.Desktop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.context/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.coordination/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.interop.waithandles/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.oop/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.tasks/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.cancellation/1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.collections.deque/1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.disposables/2.2.0\\lib/net461/Nito.Disposables.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient/1.0.0-20210921.1\\lib/net461/ConnectionClient.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Interop.Domino.UiPath.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Outlook.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Office.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.MainSessionServer.Shared.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.MicrosoftOffice365.Activities",
-        "Version": "1.11.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/5.0.0\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.graph/3.32.0\\lib/net461/Microsoft.Graph.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.graph.core/1.25.1\\lib/net45/Microsoft.Graph.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client/4.32.0\\lib/net461/Microsoft.Identity.Client.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop/4.32.0\\lib/net461/Microsoft.Identity.Client.Desktop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.context/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.coordination/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.interop.waithandles/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.oop/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.tasks/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.cancellation/1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.collections.deque/1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.disposables/2.2.0\\lib/net461/Nito.Disposables.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.diagnosticsource/4.7.1\\lib/net46/System.Diagnostics.DiagnosticSource.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.linq.async/5.0.0\\lib/net461/System.Linq.Async.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.linq.async.queryable/5.0.0\\lib/net461/System.Linq.Async.Queryable.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient/1.0.0-20210921.1\\lib/net461/ConnectionClient.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.11.1\\lib/net461/UiPath.MicrosoftOffice365.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Telemetry.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1"
-    },
-    {
-      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "21.10.2"
       },
@@ -225,7 +31,7 @@
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/5.0.0\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.codeanalysis.common/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.codeanalysis.csharp/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.codeanalysis.visualbasic/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.VisualBasic.dll",
@@ -296,7 +102,7 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.activities/2.4.1\\lib/net461/UiPath.OCR.Activities.Design.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.activities/2.4.1\\lib/net461/UiPath.OCR.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.activities/2.4.1\\lib/net461/UiPath.OCR.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
@@ -332,49 +138,61 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Word.Activities",
-        "Version": "1.7.3"
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.12.3"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\docxcore/1.0.9\\lib/netstandard2.0/DocXCore.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.dotnet.platformabstractions/2.0.4\\lib/net45/Microsoft.DotNet.PlatformAbstractions.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.dependencymodel/2.0.4\\lib/net451/Microsoft.Extensions.DependencyModel.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.win32.primitives/4.3.0\\lib/net46/Microsoft.Win32.Primitives.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client/4.32.0\\lib/net461/Microsoft.Identity.Client.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop/4.32.0\\lib/net461/Microsoft.Identity.Client.Desktop.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Core.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.appcontext/4.3.0\\lib/net46/System.AppContext.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.context/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.coordination/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.interop.waithandles/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.oop/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.tasks/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.cancellation/1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.collections.deque/1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.disposables/2.2.0\\lib/net461/Nito.Disposables.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.componentmodel.primitives/4.3.0\\lib/net45/System.ComponentModel.Primitives.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.console/4.3.0\\lib/net46/System.Console.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.diagnosticsource/4.7.1\\lib/net46/System.Diagnostics.DiagnosticSource.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.drawing.common/4.5.0-preview2-26406-04\\lib/net461/System.Drawing.Common.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.globalization.calendars/4.3.0\\lib/net46/System.Globalization.Calendars.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.compression/4.3.0\\runtimes/win/lib/net46/System.IO.Compression.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.compression.zipfile/4.3.0\\lib/net46/System.IO.Compression.ZipFile.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.filesystem/4.3.0\\lib/net46/System.IO.FileSystem.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.filesystem.primitives/4.3.0\\lib/net46/System.IO.FileSystem.Primitives.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.packaging/4.4.1\\lib/net46/System.IO.Packaging.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.net.http/4.3.0\\runtimes/win/lib/net46/System.Net.Http.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.net.sockets/4.3.0\\lib/net46/System.Net.Sockets.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.typeextensions/4.4.0\\lib/net461/System.Reflection.TypeExtensions.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation/4.3.0\\runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.algorithms/4.3.0\\runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.encoding/4.3.0\\runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.primitives/4.3.0\\lib/net46/System.Security.Cryptography.Primitives.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.x509certificates/4.3.0\\runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.principal.windows/4.4.1\\runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.xml.readerwriter/4.3.0\\lib/net46/System.Xml.ReaderWriter.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/Interop.Domino.UiPath.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/Office.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities/1.7.3\\lib/net461/UiPath.Word.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient/1.0.0-20210921.1\\lib/net461/ConnectionClient.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Interop.Domino.UiPath.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Outlook.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Office.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.MainSessionServer.Shared.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3"
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3"
     }
   ],
   "Conflicts": [],
@@ -427,21 +245,6 @@
         }
       ]
     },
-    "BitMiracle.Docotic.Pdf": {
-      "Id": "BitMiracle.Docotic.Pdf",
-      "Version": "7.5.11645",
-      "Dependencies": []
-    },
-    "ClosedXML": {
-      "Id": "ClosedXML",
-      "Version": "0.87.1",
-      "Dependencies": [
-        {
-          "Item1": "DocumentFormat.OpenXml",
-          "Item2": "[2.5.0, )"
-        }
-      ]
-    },
     "CsvHelper": {
       "Id": "CsvHelper",
       "Version": "16.0.0",
@@ -456,53 +259,9 @@
         }
       ]
     },
-    "DocumentFormat.OpenXml": {
-      "Id": "DocumentFormat.OpenXml",
-      "Version": "2.5.0",
-      "Dependencies": []
-    },
-    "DocXCore": {
-      "Id": "DocXCore",
-      "Version": "1.0.9",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Extensions.DependencyModel",
-          "Item2": "[2.0.4, )"
-        },
-        {
-          "Item1": "NuGet.CommandLine",
-          "Item2": "[4.6.2, )"
-        },
-        {
-          "Item1": "System.ComponentModel.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Drawing.Common",
-          "Item2": "[4.5.0-preview2-26406-04, )"
-        },
-        {
-          "Item1": "System.IO.Packaging",
-          "Item2": "[4.4.1, )"
-        },
-        {
-          "Item1": "System.Reflection.TypeExtensions",
-          "Item2": "[4.4.0, )"
-        },
-        {
-          "Item1": "System.Security.Principal.Windows",
-          "Item2": "[4.4.1, )"
-        }
-      ]
-    },
     "Extended.Wpf.Toolkit": {
       "Id": "Extended.Wpf.Toolkit",
       "Version": "3.8.1",
-      "Dependencies": []
-    },
-    "FeatSystems.ActivityHtmlExtractor.Activities": {
-      "Id": "FeatSystems.ActivityHtmlExtractor.Activities",
-      "Version": "1.0.0",
       "Dependencies": []
     },
     "Google.Apis": {
@@ -582,35 +341,6 @@
         {
           "Item1": "Google.Apis.Auth",
           "Item2": "[1.43.0, )"
-        }
-      ]
-    },
-    "HtmlRenderer.Core": {
-      "Id": "HtmlRenderer.Core",
-      "Version": "1.5.1-beta1",
-      "Dependencies": []
-    },
-    "HtmlRenderer.PdfSharp": {
-      "Id": "HtmlRenderer.PdfSharp",
-      "Version": "1.5.1-beta1",
-      "Dependencies": [
-        {
-          "Item1": "HtmlRenderer.Core",
-          "Item2": "[1.5.1-beta1, )"
-        },
-        {
-          "Item1": "PDFsharp",
-          "Item2": "[1.50.4000-beta3b, )"
-        }
-      ]
-    },
-    "HtmlToPdf.Activities": {
-      "Id": "HtmlToPdf.Activities",
-      "Version": "1.4.6",
-      "Dependencies": [
-        {
-          "Item1": "HtmlRenderer.PdfSharp",
-          "Item2": "[1.5.1-beta1, )"
         }
       ]
     },
@@ -777,7 +507,7 @@
     },
     "Microsoft.Bcl.AsyncInterfaces": {
       "Id": "Microsoft.Bcl.AsyncInterfaces",
-      "Version": "5.0.0",
+      "Version": "1.1.1",
       "Dependencies": [
         {
           "Item1": "System.Threading.Tasks.Extensions",
@@ -849,11 +579,6 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
-    "Microsoft.DotNet.PlatformAbstractions": {
-      "Id": "Microsoft.DotNet.PlatformAbstractions",
-      "Version": "2.0.4",
-      "Dependencies": []
-    },
     "Microsoft.Exchange.WebServices": {
       "Id": "Microsoft.Exchange.WebServices",
       "Version": "2.2.0",
@@ -907,20 +632,6 @@
       "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "Version": "3.1.6",
       "Dependencies": []
-    },
-    "Microsoft.Extensions.DependencyModel": {
-      "Id": "Microsoft.Extensions.DependencyModel",
-      "Version": "2.0.4",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.DotNet.PlatformAbstractions",
-          "Item2": "[2.0.4, )"
-        },
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[9.0.1, )"
-        }
-      ]
     },
     "Microsoft.Extensions.FileSystemGlobbing": {
       "Id": "Microsoft.Extensions.FileSystemGlobbing",
@@ -986,34 +697,6 @@
         }
       ]
     },
-    "Microsoft.Graph": {
-      "Id": "Microsoft.Graph",
-      "Version": "3.32.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Graph.Core",
-          "Item2": "[1.25.1, )"
-        }
-      ]
-    },
-    "Microsoft.Graph.Core": {
-      "Id": "Microsoft.Graph.Core",
-      "Version": "1.25.1",
-      "Dependencies": [
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[6.0.1, )"
-        },
-        {
-          "Item1": "System.Diagnostics.DiagnosticSource",
-          "Item2": "[4.7.1, )"
-        },
-        {
-          "Item1": "System.ValueTuple",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "Microsoft.Identity.Client": {
       "Id": "Microsoft.Identity.Client",
       "Version": "4.32.0",
@@ -1037,11 +720,6 @@
         }
       ]
     },
-    "Microsoft.NETCore.Platforms": {
-      "Id": "Microsoft.NETCore.Platforms",
-      "Version": "1.1.0",
-      "Dependencies": []
-    },
     "Microsoft.Office.Interop.Excel": {
       "Id": "Microsoft.Office.Interop.Excel",
       "Version": "15.0.4795.1000",
@@ -1062,19 +740,9 @@
       "Version": "10.3.0",
       "Dependencies": []
     },
-    "Microsoft.VisualStudio.OLE.Interop": {
-      "Id": "Microsoft.VisualStudio.OLE.Interop",
-      "Version": "16.7.30328.74",
-      "Dependencies": []
-    },
     "Microsoft.Web.WebView2": {
       "Id": "Microsoft.Web.WebView2",
       "Version": "1.0.705.50",
-      "Dependencies": []
-    },
-    "Microsoft.Win32.Primitives": {
-      "Id": "Microsoft.Win32.Primitives",
-      "Version": "4.3.0",
       "Dependencies": []
     },
     "Microsoft.Windows.SDK.Contracts": {
@@ -1111,188 +779,6 @@
         {
           "Item1": "Portable.BouncyCastle",
           "Item2": "[1.8.8, )"
-        }
-      ]
-    },
-    "NETStandard.Library": {
-      "Id": "NETStandard.Library",
-      "Version": "1.6.1",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.NETCore.Platforms",
-          "Item2": "[1.1.0, )"
-        },
-        {
-          "Item1": "Microsoft.Win32.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.AppContext",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Collections",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Collections.Concurrent",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Console",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.Debug",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.Tools",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.Tracing",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization.Calendars",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO.Compression",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO.Compression.ZipFile",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO.FileSystem",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO.FileSystem.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Linq",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Linq.Expressions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Net.Http",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Net.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Net.Sockets",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.ObjectModel",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Handles",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.InteropServices",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.InteropServices.RuntimeInformation",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Numerics",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.Algorithms",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.Encoding",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.X509Certificates",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Text.Encoding",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Text.Encoding.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Text.RegularExpressions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading.Tasks",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading.Timer",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Xml.ReaderWriter",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Xml.XDocument",
-          "Item2": "[4.3.0, )"
         }
       ]
     },
@@ -1415,34 +901,9 @@
       "Version": "4.5.11",
       "Dependencies": []
     },
-    "NPOI": {
-      "Id": "NPOI",
-      "Version": "2.4.1",
-      "Dependencies": [
-        {
-          "Item1": "SharpZipLib",
-          "Item2": "[1.0.0, )"
-        }
-      ]
-    },
-    "NuGet.CommandLine": {
-      "Id": "NuGet.CommandLine",
-      "Version": "4.6.2",
-      "Dependencies": []
-    },
-    "PDFsharp": {
-      "Id": "PDFsharp",
-      "Version": "1.51.5185-beta",
-      "Dependencies": []
-    },
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
       "Version": "1.8.8",
-      "Dependencies": []
-    },
-    "PowerAutomateMockUp": {
-      "Id": "PowerAutomateMockUp",
-      "Version": "1.2.0",
       "Dependencies": []
     },
     "SharpZipLib": {
@@ -1450,24 +911,9 @@
       "Version": "1.2.0",
       "Dependencies": []
     },
-    "System.AppContext": {
-      "Id": "System.AppContext",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.Buffers": {
       "Id": "System.Buffers",
       "Version": "4.5.1",
-      "Dependencies": []
-    },
-    "System.Collections": {
-      "Id": "System.Collections",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Collections.Concurrent": {
-      "Id": "System.Collections.Concurrent",
-      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.Collections.Immutable": {
@@ -1485,105 +931,15 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
-    "System.ComponentModel.Primitives": {
-      "Id": "System.ComponentModel.Primitives",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Console": {
-      "Id": "System.Console",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.Data.DataSetExtensions": {
       "Id": "System.Data.DataSetExtensions",
       "Version": "4.5.0",
-      "Dependencies": []
-    },
-    "System.Diagnostics.Debug": {
-      "Id": "System.Diagnostics.Debug",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Diagnostics.DiagnosticSource": {
-      "Id": "System.Diagnostics.DiagnosticSource",
-      "Version": "4.7.1",
-      "Dependencies": [
-        {
-          "Item1": "System.Memory",
-          "Item2": "[4.5.4, )"
-        }
-      ]
-    },
-    "System.Diagnostics.Tools": {
-      "Id": "System.Diagnostics.Tools",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Diagnostics.Tracing": {
-      "Id": "System.Diagnostics.Tracing",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Drawing.Common": {
-      "Id": "System.Drawing.Common",
-      "Version": "4.5.0-preview2-26406-04",
-      "Dependencies": []
-    },
-    "System.Globalization": {
-      "Id": "System.Globalization",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Globalization.Calendars": {
-      "Id": "System.Globalization.Calendars",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.IO": {
-      "Id": "System.IO",
-      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
       "Version": "3.0.10",
       "Dependencies": []
-    },
-    "System.IO.Compression": {
-      "Id": "System.IO.Compression",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.IO.Compression.ZipFile": {
-      "Id": "System.IO.Compression.ZipFile",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.IO.FileSystem": {
-      "Id": "System.IO.FileSystem",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.IO.FileSystem.Primitives",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.IO.FileSystem.Primitives": {
-      "Id": "System.IO.FileSystem.Primitives",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.IO.Packaging": {
-      "Id": "System.IO.Packaging",
-      "Version": "4.4.1",
-      "Dependencies": [
-        {
-          "Item1": "NETStandard.Library",
-          "Item2": "[1.6.1, )"
-        }
-      ]
     },
     "System.IO.Pipelines": {
       "Id": "System.IO.Pipelines",
@@ -1602,36 +958,6 @@
           "Item2": "[4.5.2, )"
         }
       ]
-    },
-    "System.Linq": {
-      "Id": "System.Linq",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Linq.Async": {
-      "Id": "System.Linq.Async",
-      "Version": "5.0.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Bcl.AsyncInterfaces",
-          "Item2": "[1.1.1, )"
-        }
-      ]
-    },
-    "System.Linq.Async.Queryable": {
-      "Id": "System.Linq.Async.Queryable",
-      "Version": "5.0.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Linq.Async",
-          "Item2": "[5.0.0, )"
-        }
-      ]
-    },
-    "System.Linq.Expressions": {
-      "Id": "System.Linq.Expressions",
-      "Version": "4.3.0",
-      "Dependencies": []
     },
     "System.Management.Automation": {
       "Id": "System.Management.Automation",
@@ -1656,48 +982,9 @@
         }
       ]
     },
-    "System.Net.Http": {
-      "Id": "System.Net.Http",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Diagnostics.DiagnosticSource",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.X509Certificates",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.Net.Primitives": {
-      "Id": "System.Net.Primitives",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Net.Sockets": {
-      "Id": "System.Net.Sockets",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.Numerics.Vectors": {
       "Id": "System.Numerics.Vectors",
       "Version": "4.5.0",
-      "Dependencies": []
-    },
-    "System.ObjectModel": {
-      "Id": "System.ObjectModel",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Reflection": {
-      "Id": "System.Reflection",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Reflection.Extensions": {
-      "Id": "System.Reflection.Extensions",
-      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.Reflection.Metadata": {
@@ -1710,26 +997,6 @@
         }
       ]
     },
-    "System.Reflection.Primitives": {
-      "Id": "System.Reflection.Primitives",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Reflection.TypeExtensions": {
-      "Id": "System.Reflection.TypeExtensions",
-      "Version": "4.4.0",
-      "Dependencies": []
-    },
-    "System.Resources.ResourceManager": {
-      "Id": "System.Resources.ResourceManager",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Runtime": {
-      "Id": "System.Runtime",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.Runtime.Caching": {
       "Id": "System.Runtime.Caching",
       "Version": "5.0.0",
@@ -1738,31 +1005,6 @@
     "System.Runtime.CompilerServices.Unsafe": {
       "Id": "System.Runtime.CompilerServices.Unsafe",
       "Version": "4.7.1",
-      "Dependencies": []
-    },
-    "System.Runtime.Extensions": {
-      "Id": "System.Runtime.Extensions",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Runtime.Handles": {
-      "Id": "System.Runtime.Handles",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Runtime.InteropServices": {
-      "Id": "System.Runtime.InteropServices",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Runtime.InteropServices.RuntimeInformation": {
-      "Id": "System.Runtime.InteropServices.RuntimeInformation",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Runtime.Numerics": {
-      "Id": "System.Runtime.Numerics",
-      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.Runtime.WindowsRuntime": {
@@ -1780,50 +1022,6 @@
         }
       ]
     },
-    "System.Security.Cryptography.Algorithms": {
-      "Id": "System.Security.Cryptography.Algorithms",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Security.Cryptography.Primitives",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.Security.Cryptography.Encoding": {
-      "Id": "System.Security.Cryptography.Encoding",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Security.Cryptography.Primitives": {
-      "Id": "System.Security.Cryptography.Primitives",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Security.Cryptography.X509Certificates": {
-      "Id": "System.Security.Cryptography.X509Certificates",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Security.Cryptography.Algorithms",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.Encoding",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.Security.Principal.Windows": {
-      "Id": "System.Security.Principal.Windows",
-      "Version": "4.4.1",
-      "Dependencies": []
-    },
-    "System.Text.Encoding": {
-      "Id": "System.Text.Encoding",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.Text.Encoding.CodePages": {
       "Id": "System.Text.Encoding.CodePages",
       "Version": "4.5.1",
@@ -1833,11 +1031,6 @@
           "Item2": "[4.5.2, )"
         }
       ]
-    },
-    "System.Text.Encoding.Extensions": {
-      "Id": "System.Text.Encoding.Extensions",
-      "Version": "4.3.0",
-      "Dependencies": []
     },
     "System.Text.Encodings.Web": {
       "Id": "System.Text.Encodings.Web",
@@ -1887,16 +1080,6 @@
         }
       ]
     },
-    "System.Text.RegularExpressions": {
-      "Id": "System.Text.RegularExpressions",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Threading": {
-      "Id": "System.Threading",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.Threading.Channels": {
       "Id": "System.Threading.Channels",
       "Version": "4.7.1",
@@ -1906,11 +1089,6 @@
           "Item2": "[4.5.4, )"
         }
       ]
-    },
-    "System.Threading.Tasks": {
-      "Id": "System.Threading.Tasks",
-      "Version": "4.3.0",
-      "Dependencies": []
     },
     "System.Threading.Tasks.Dataflow": {
       "Id": "System.Threading.Tasks.Dataflow",
@@ -1927,24 +1105,9 @@
         }
       ]
     },
-    "System.Threading.Timer": {
-      "Id": "System.Threading.Timer",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
     "System.ValueTuple": {
       "Id": "System.ValueTuple",
       "Version": "4.5.0",
-      "Dependencies": []
-    },
-    "System.Xml.ReaderWriter": {
-      "Id": "System.Xml.ReaderWriter",
-      "Version": "4.3.0",
-      "Dependencies": []
-    },
-    "System.Xml.XDocument": {
-      "Id": "System.Xml.XDocument",
-      "Version": "4.3.0",
       "Dependencies": []
     },
     "UiPath": {
@@ -1959,16 +1122,6 @@
         {
           "Item1": "Newtonsoft.Json",
           "Item2": "[11.0.2, )"
-        }
-      ]
-    },
-    "UiPath.AddPicturetoPDF.Activities": {
-      "Id": "UiPath.AddPicturetoPDF.Activities",
-      "Version": "1.3.0",
-      "Dependencies": [
-        {
-          "Item1": "PdfSharp",
-          "Item2": "[1.51.5185-beta, )"
         }
       ]
     },
@@ -1991,32 +1144,6 @@
         {
           "Item1": "UiPath.Telemetry.Client",
           "Item2": "[1.5.3, )"
-        }
-      ]
-    },
-    "UiPath.Excel.Activities": {
-      "Id": "UiPath.Excel.Activities",
-      "Version": "2.11.4",
-      "Dependencies": [
-        {
-          "Item1": "ClosedXML",
-          "Item2": "[0.87.1, )"
-        },
-        {
-          "Item1": "CsvHelper",
-          "Item2": "[15.0.5, )"
-        },
-        {
-          "Item1": "DocumentFormat.OpenXml",
-          "Item2": "[2.5.0, )"
-        },
-        {
-          "Item1": "Microsoft.VisualStudio.OLE.Interop",
-          "Item2": "[16.7.30328.74, )"
-        },
-        {
-          "Item1": "NPOI",
-          "Item2": "[2.4.1, )"
         }
       ]
     },
@@ -2078,52 +1205,6 @@
         }
       ]
     },
-    "UiPath.MicrosoftOffice365.Activities": {
-      "Id": "UiPath.MicrosoftOffice365.Activities",
-      "Version": "1.11.1",
-      "Dependencies": [
-        {
-          "Item1": "ClosedXML",
-          "Item2": "[0.87.1, )"
-        },
-        {
-          "Item1": "Microsoft.Bcl.AsyncInterfaces",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "Microsoft.Graph",
-          "Item2": "[3.32.0, )"
-        },
-        {
-          "Item1": "Microsoft.Identity.Client",
-          "Item2": "[4.32.0, )"
-        },
-        {
-          "Item1": "Microsoft.Identity.Client.Desktop",
-          "Item2": "[4.32.0, )"
-        },
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
-        },
-        {
-          "Item1": "System.Linq.Async.Queryable",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "UiPath.Activities.RuntimeGovernance",
-          "Item2": "[1.1.3, )"
-        },
-        {
-          "Item1": "UiPath.ConnectionClient",
-          "Item2": "[1.0.0-20210921.1, )"
-        },
-        {
-          "Item1": "UiPath.Platform",
-          "Item2": "[21.10.0, )"
-        }
-      ]
-    },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
       "Version": "2.4.1",
@@ -2156,26 +1237,8 @@
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.9.1",
+      "Version": "2.7.1",
       "Dependencies": []
-    },
-    "UiPath.PDF.Activities": {
-      "Id": "UiPath.PDF.Activities",
-      "Version": "3.4.1",
-      "Dependencies": [
-        {
-          "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.9.1, )"
-        },
-        {
-          "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.5.3, )"
-        },
-        {
-          "Item1": "BitMiracle.Docotic.Pdf",
-          "Item2": "[7.5.11645, )"
-        }
-      ]
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
@@ -2334,16 +1397,6 @@
           "Item2": "[2.7.1, )"
         }
       ]
-    },
-    "UiPath.Word.Activities": {
-      "Id": "UiPath.Word.Activities",
-      "Version": "1.7.3",
-      "Dependencies": [
-        {
-          "Item1": "DocXCore",
-          "Item2": "[1.0.9, )"
-        }
-      ]
     }
   },
   "AllPackages": [
@@ -2402,26 +1455,6 @@
     },
     {
       "Package": {
-        "Id": "BitMiracle.Docotic.Pdf",
-        "Version": "7.5.11645"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\lib\\net46\\BitMiracle.Docotic.Pdf.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645"
-    },
-    {
-      "Package": {
-        "Id": "ClosedXML",
-        "Version": "0.87.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\closedxml\\0.87.1"
-    },
-    {
-      "Package": {
         "Id": "CsvHelper",
         "Version": "16.0.0"
       },
@@ -2429,26 +1462,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\net45\\CsvHelper.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\csvhelper\\16.0.0"
-    },
-    {
-      "Package": {
-        "Id": "DocumentFormat.OpenXml",
-        "Version": "2.5.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\documentformat.openxml\\2.5.0"
-    },
-    {
-      "Package": {
-        "Id": "DocXCore",
-        "Version": "1.0.9"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\docxcore\\1.0.9\\lib\\netstandard2.0\\DocXCore.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\docxcore\\1.0.9"
     },
     {
       "Package": {
@@ -2463,16 +1476,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1"
-    },
-    {
-      "Package": {
-        "Id": "FeatSystems.ActivityHtmlExtractor.Activities",
-        "Version": "1.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities\\1.0.0\\lib\\ActivityHtmlExtractor.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\featsystems.activityhtmlextractor.activities\\1.0.0"
     },
     {
       "Package": {
@@ -2535,37 +1538,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876\\lib\\net45\\Google.Apis.PeopleService.v1.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876"
-    },
-    {
-      "Package": {
-        "Id": "HtmlRenderer.Core",
-        "Version": "1.5.1-beta1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.core\\1.5.1-beta1\\lib\\net45\\HtmlRenderer.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.core\\1.5.1-beta1"
-    },
-    {
-      "Package": {
-        "Id": "HtmlRenderer.PdfSharp",
-        "Version": "1.5.1-beta1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.pdfsharp\\1.5.1-beta1\\lib\\net45\\HtmlRenderer.PdfSharp.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmlrenderer.pdfsharp\\1.5.1-beta1"
-    },
-    {
-      "Package": {
-        "Id": "HtmlToPdf.Activities",
-        "Version": "1.4.6"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6\\lib\\HtmlToPdfConvertLibrary.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6\\lib\\HtmlToPdfConvertLibrary.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\htmltopdf.activities\\1.4.6"
     },
     {
       "Package": {
@@ -2680,12 +1652,12 @@
     {
       "Package": {
         "Id": "Microsoft.Bcl.AsyncInterfaces",
-        "Version": "5.0.0"
+        "Version": "1.1.1"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
       ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0"
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
     },
     {
       "Package": {
@@ -2734,16 +1706,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\lib\\net45\\_._"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.csharp\\4.7.0"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.DotNet.PlatformAbstractions",
-        "Version": "2.0.4"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\lib\\net45\\Microsoft.DotNet.PlatformAbstractions.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4"
     },
     {
       "Package": {
@@ -2808,16 +1770,6 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.Extensions.DependencyModel",
-        "Version": "2.0.4"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4\\lib\\net451\\Microsoft.Extensions.DependencyModel.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4"
-    },
-    {
-      "Package": {
         "Id": "Microsoft.Extensions.FileSystemGlobbing",
         "Version": "5.0.0"
       },
@@ -2868,26 +1820,6 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.Graph",
-        "Version": "3.32.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.graph\\3.32.0\\lib\\net461\\Microsoft.Graph.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.graph\\3.32.0"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Graph.Core",
-        "Version": "1.25.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.graph.core\\1.25.1\\lib\\net45\\Microsoft.Graph.Core.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.graph.core\\1.25.1"
-    },
-    {
-      "Package": {
         "Id": "Microsoft.Identity.Client",
         "Version": "4.32.0"
       },
@@ -2905,16 +1837,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop\\4.32.0\\lib\\net461\\Microsoft.Identity.Client.Desktop.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop\\4.32.0"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.NETCore.Platforms",
-        "Version": "1.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\lib\\netstandard1.0\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0"
     },
     {
       "Package": {
@@ -2948,16 +1870,6 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.VisualStudio.OLE.Interop",
-        "Version": "16.7.30328.74"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib\\net45\\Microsoft.VisualStudio.OLE.Interop.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74"
-    },
-    {
-      "Package": {
         "Id": "Microsoft.Web.WebView2",
         "Version": "1.0.705.50"
       },
@@ -2967,16 +1879,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2\\1.0.705.50\\lib\\net45\\Microsoft.Web.WebView2.Wpf.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2\\1.0.705.50"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Win32.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\lib\\net46\\Microsoft.Win32.Primitives.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -3005,14 +1907,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\mimekit\\2.10.0\\lib\\net46\\MimeKit.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\mimekit\\2.10.0"
-    },
-    {
-      "Package": {
-        "Id": "NETStandard.Library",
-        "Version": "1.6.1"
-      },
-      "Assemblies": [],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\netstandard.library\\1.6.1"
     },
     {
       "Package": {
@@ -3124,38 +2018,6 @@
     },
     {
       "Package": {
-        "Id": "NPOI",
-        "Version": "2.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\npoi\\2.4.1"
-    },
-    {
-      "Package": {
-        "Id": "NuGet.CommandLine",
-        "Version": "4.6.2"
-      },
-      "Assemblies": [],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\nuget.commandline\\4.6.2"
-    },
-    {
-      "Package": {
-        "Id": "PDFsharp",
-        "Version": "1.51.5185-beta"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp\\1.51.5185-beta\\lib\\net20\\PdfSharp.Charting.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp\\1.51.5185-beta\\lib\\net20\\PdfSharp.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\pdfsharp\\1.51.5185-beta"
-    },
-    {
-      "Package": {
         "Id": "Portable.BouncyCastle",
         "Version": "1.8.8"
       },
@@ -3163,14 +2025,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\portable.bouncycastle\\1.8.8\\lib\\net40\\BouncyCastle.Crypto.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\portable.bouncycastle\\1.8.8"
-    },
-    {
-      "Package": {
-        "Id": "PowerAutomateMockUp",
-        "Version": "1.2.0"
-      },
-      "Assemblies": [],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\powerautomatemockup\\1.2.0"
     },
     {
       "Package": {
@@ -3184,16 +2038,6 @@
     },
     {
       "Package": {
-        "Id": "System.AppContext",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.appcontext\\4.3.0\\lib\\net46\\System.AppContext.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.appcontext\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Buffers",
         "Version": "4.5.1"
       },
@@ -3201,26 +2045,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.buffers\\4.5.1"
-    },
-    {
-      "Package": {
-        "Id": "System.Collections",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.collections\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.collections\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Collections.Concurrent",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.collections.concurrent\\4.3.0"
     },
     {
       "Package": {
@@ -3244,26 +2068,6 @@
     },
     {
       "Package": {
-        "Id": "System.ComponentModel.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\lib\\net45\\System.ComponentModel.Primitives.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Console",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.console\\4.3.0\\lib\\net46\\System.Console.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.console\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Data.DataSetExtensions",
         "Version": "4.5.0"
       },
@@ -3271,86 +2075,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\lib\\net45\\_._"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.data.datasetextensions\\4.5.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Diagnostics.Debug",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.debug\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Diagnostics.DiagnosticSource",
-        "Version": "4.7.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\lib\\net46\\System.Diagnostics.DiagnosticSource.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1"
-    },
-    {
-      "Package": {
-        "Id": "System.Diagnostics.Tools",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.tools\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Diagnostics.Tracing",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Drawing.Common",
-        "Version": "4.5.0-preview2-26406-04"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.drawing.common\\4.5.0-preview2-26406-04\\lib\\net461\\System.Drawing.Common.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.drawing.common\\4.5.0-preview2-26406-04"
-    },
-    {
-      "Package": {
-        "Id": "System.Globalization",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.globalization\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.globalization\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Globalization.Calendars",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\lib\\net46\\System.Globalization.Calendars.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.globalization.calendars\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.IO",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io\\4.3.0"
     },
     {
       "Package": {
@@ -3364,56 +2088,6 @@
     },
     {
       "Package": {
-        "Id": "System.IO.Compression",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.compression\\4.3.0\\lib\\net46\\System.IO.Compression.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io.compression\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.IO.Compression.ZipFile",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\lib\\net46\\System.IO.Compression.ZipFile.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.IO.FileSystem",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.filesystem\\4.3.0\\lib\\net46\\System.IO.FileSystem.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io.filesystem\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.IO.FileSystem.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\lib\\net46\\System.IO.FileSystem.Primitives.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.IO.Packaging",
-        "Version": "4.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.packaging\\4.4.1\\lib\\net46\\System.IO.Packaging.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io.packaging\\4.4.1"
-    },
-    {
-      "Package": {
         "Id": "System.IO.Pipelines",
         "Version": "4.7.1"
       },
@@ -3421,46 +2095,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netstandard2.0\\System.IO.Pipelines.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.io.pipelines\\4.7.1"
-    },
-    {
-      "Package": {
-        "Id": "System.Linq",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.linq\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.linq\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Linq.Async",
-        "Version": "5.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.linq.async\\5.0.0\\lib\\net461\\System.Linq.Async.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.linq.async\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Linq.Async.Queryable",
-        "Version": "5.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.linq.async.queryable\\5.0.0\\lib\\net461\\System.Linq.Async.Queryable.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.linq.async.queryable\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Linq.Expressions",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.linq.expressions\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.linq.expressions\\4.3.0"
     },
     {
       "Package": {
@@ -3484,36 +2118,6 @@
     },
     {
       "Package": {
-        "Id": "System.Net.Http",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.net.http\\4.3.0\\lib\\net46\\System.Net.Http.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.net.http\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Net.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.net.primitives\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.net.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Net.Sockets",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.net.sockets\\4.3.0\\lib\\net46\\System.Net.Sockets.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.net.sockets\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Numerics.Vectors",
         "Version": "4.5.0"
       },
@@ -3524,36 +2128,6 @@
     },
     {
       "Package": {
-        "Id": "System.ObjectModel",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.objectmodel\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.objectmodel\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Reflection",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.reflection\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.reflection\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Reflection.Extensions",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.extensions\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Reflection.Metadata",
         "Version": "5.0.0"
       },
@@ -3561,46 +2135,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\lib\\net461\\System.Reflection.Metadata.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.metadata\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Reflection.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Reflection.TypeExtensions",
-        "Version": "4.4.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\lib\\net461\\System.Reflection.TypeExtensions.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Resources.ResourceManager",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Runtime",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.runtime\\4.3.0"
     },
     {
       "Package": {
@@ -3624,56 +2158,6 @@
     },
     {
       "Package": {
-        "Id": "System.Runtime.Extensions",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.extensions\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Runtime.Handles",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.handles\\4.3.0\\lib\\net46\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.handles\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Runtime.InteropServices",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.interopservices\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Runtime.InteropServices.RuntimeInformation",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\lib\\net45\\System.Runtime.InteropServices.RuntimeInformation.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Runtime.Numerics",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.numerics\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Runtime.WindowsRuntime",
         "Version": "4.6.0"
       },
@@ -3694,66 +2178,6 @@
     },
     {
       "Package": {
-        "Id": "System.Security.Cryptography.Algorithms",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\lib\\net461\\System.Security.Cryptography.Algorithms.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Security.Cryptography.Encoding",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\lib\\net46\\System.Security.Cryptography.Encoding.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Security.Cryptography.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\lib\\net46\\System.Security.Cryptography.Primitives.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Security.Cryptography.X509Certificates",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\lib\\net461\\System.Security.Cryptography.X509Certificates.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Security.Principal.Windows",
-        "Version": "4.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.security.principal.windows\\4.4.1\\lib\\net461\\System.Security.Principal.Windows.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.security.principal.windows\\4.4.1"
-    },
-    {
-      "Package": {
-        "Id": "System.Text.Encoding",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.text.encoding\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.text.encoding\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Text.Encoding.CodePages",
         "Version": "4.5.1"
       },
@@ -3761,16 +2185,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\lib\\net461\\System.Text.Encoding.CodePages.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1"
-    },
-    {
-      "Package": {
-        "Id": "System.Text.Encoding.Extensions",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0"
     },
     {
       "Package": {
@@ -3794,26 +2208,6 @@
     },
     {
       "Package": {
-        "Id": "System.Text.RegularExpressions",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.text.regularexpressions\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Threading",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.threading\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Threading.Channels",
         "Version": "4.7.1"
       },
@@ -3821,16 +2215,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.threading.channels\\4.7.1"
-    },
-    {
-      "Package": {
-        "Id": "System.Threading.Tasks",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks\\4.3.0"
     },
     {
       "Package": {
@@ -3854,16 +2238,6 @@
     },
     {
       "Package": {
-        "Id": "System.Threading.Timer",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.timer\\4.3.0\\lib\\net451\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.threading.timer\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.ValueTuple",
         "Version": "4.5.0"
       },
@@ -3871,26 +2245,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple\\4.5.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Xml.ReaderWriter",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\lib\\net46\\System.Xml.ReaderWriter.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.xml.readerwriter\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Xml.XDocument",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\lib\\net45\\_._"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\system.xml.xdocument\\4.3.0"
     },
     {
       "Package": {
@@ -3914,16 +2268,6 @@
     },
     {
       "Package": {
-        "Id": "UiPath.AddPicturetoPDF.Activities",
-        "Version": "1.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.addpicturetopdf.activities\\1.3.0\\lib\\AddPicturetoPDF.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.addpicturetopdf.activities\\1.3.0"
-    },
-    {
-      "Package": {
         "Id": "UiPath.ConnectionClient",
         "Version": "1.0.0-20210921.1"
       },
@@ -3931,22 +2275,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient\\1.0.0-20210921.1\\lib\\net461\\ConnectionClient.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient\\1.0.0-20210921.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.11.4"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Office.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.excel.activities\\2.11.4"
     },
     {
       "Package": {
@@ -3959,25 +2287,12 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\Microsoft.Office.Interop.Word.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.MainSessionServer.Shared.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.MicrosoftOffice365.Activities",
-        "Version": "1.11.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1\\lib\\net461\\UiPath.MicrosoftOffice365.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.11.1"
     },
     {
       "Package": {
@@ -3994,25 +2309,12 @@
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.9.1"
+        "Version": "2.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.Telemetry.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1\\lib\\net461\\UiPath.PDF.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.pdf.activities\\3.4.1"
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1"
     },
     {
       "Package": {
@@ -4086,22 +2388,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision\\2.2.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Word.Activities",
-        "Version": "1.7.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\Interop.Domino.UiPath.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\Office.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3\\lib\\net461\\UiPath.Word.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.word.activities\\1.7.3"
     }
   ]
 }

@@ -1,20 +1,12 @@
 {
-  "name": "Dummy Test",
-  "description": "Blank Process",
+  "name": "Report Helper Performer",
+  "description": "Takes QC Report information from queue and fills out MS Form, captures screen as pdf and emails pdf to auditor.",
   "main": "Main.xaml",
   "dependencies": {
     "BalaReva.Excel.Activities": "[2021.0.0]",
-    "FeatSystems.ActivityHtmlExtractor.Activities": "[1.0.0]",
-    "HtmlToPdf.Activities": "[1.4.6]",
-    "PowerAutomateMockUp": "[1.2.0]",
-    "UiPath.AddPicturetoPDF.Activities": "[1.3.0]",
-    "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
-    "UiPath.MicrosoftOffice365.Activities": "[1.11.1]",
-    "UiPath.PDF.Activities": "[3.4.1]",
     "UiPath.System.Activities": "[21.10.2]",
-    "UiPath.UIAutomation.Activities": "[20.10.9]",
-    "UiPath.Word.Activities": "[1.7.3]"
+    "UiPath.UIAutomation.Activities": "[20.10.9]"
   },
   "webServices": [],
   "entitiesStores": [],
