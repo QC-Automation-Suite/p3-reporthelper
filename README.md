@@ -1,8 +1,7 @@
-# p3-reporthelper
-# P3 Project Specs
+# p3-ReportHelper
 ***
 # QC Automation Suite/ QC Report Helper
-The QC Report Helper Robot is here to help make the process of finishing and filling out information regarding QC and the different batches much easier 
+The QC Report Helper Robot is here to help make the process of finishing and filling out information regarding QC and the different batches easier.  Not only will this robot make it easier to fill out information, it will also make it faster and much more organized when filling out said informaiton.
 
 ***
 
