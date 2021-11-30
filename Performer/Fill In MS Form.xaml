@@ -816,7 +816,7 @@
                 </ui:Target>
               </ui:SendHotkey.Target>
             </ui:SendHotkey>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'DIV'" sap:VirtualizedContainerService.HintSize="496.8,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_20" Text="%[k(tab)][k(tab)][k(enter)]s[k(enter)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(enter)]">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBetweenKeys="50" DisplayName="Type Into 'DIV'" sap:VirtualizedContainerService.HintSize="496.8,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_20" Text="%[k(tab)][k(tab)][k(enter)]s[k(enter)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(enter)]">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1dada8c5-aacc-4371-b99f-f32382920e9b" InformativeScreenshot="9cc92334b8598aa5d704a70bec5ba895" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='1' parentid='form-container' tag='DIV' /&gt;">
                   <ui:Target.TimeoutMS>
