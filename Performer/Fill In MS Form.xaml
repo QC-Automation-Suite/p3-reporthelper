@@ -3,7 +3,7 @@
     <x:Property Name="batchinfo" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
     <x:Property Name="reportPDF" Type="OutArgument(si:FileInfo)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1160,6220</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1160,6050</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -43,7 +43,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="47">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="94">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -93,7 +93,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="615,6155" sap2010:WorkflowViewState.IdRef="Sequence_21">
+  <Sequence DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="615,5985" sap2010:WorkflowViewState.IdRef="Sequence_21">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Browser" Name="browser" />
     </Sequence.Variables>
@@ -102,13 +102,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="573,6001" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[browser]" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdDVIZ5UQ09XRkpFMkE4S0tDT0tTVzNNWFFQUFg5NC4u">
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="573,5831" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[browser]" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdDVIZ5UQ09XRkpFMkE4S0tDT0tTVzNNWFFQUFg5NC4u">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Fill In MS Form" sap:VirtualizedContainerService.HintSize="539,5900" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence DisplayName="Fill In MS Form" sap:VirtualizedContainerService.HintSize="539,5730" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="enterComment" />
               <Variable x:TypeArguments="x:String" Name="batchName" />
@@ -230,7 +230,7 @@
             </ui:Click>
             <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="497,51" sap2010:WorkflowViewState.IdRef="CommentOut_10">
               <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="539,696" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="539,482" sap2010:WorkflowViewState.IdRef="Sequence_18">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -535,7 +535,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6f7dce2e-f66d-4af3-b5be-603eef9b1557" InformativeScreenshot="6bc7e3ce92ad53af025ae14f379d4bbf" Selector="&lt;webctrl parentid='form-container' tag='SPAN' innertext='{{name}}' /&gt;&#xD;&#xA;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6f7dce2e-f66d-4af3-b5be-603eef9b1557" InformativeScreenshot="6bc7e3ce92ad53af025ae14f379d4bbf" Selector="&lt;webctrl parentid='form-container' tag='SPAN' innertext='{{name}}' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -557,7 +557,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b0073ddf-72f6-4feb-8b8b-47089cab6842" InformativeScreenshot="714431e61a800304bf2e189268ea0f52" Selector="&lt;webctrl idx='1' name='r209ec7fba22a4ee68b8ce0a43a33c1e7' tag='INPUT' type='checkbox' /&gt;&#xD;&#xA;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b0073ddf-72f6-4feb-8b8b-47089cab6842" InformativeScreenshot="714431e61a800304bf2e189268ea0f52" Selector="&lt;webctrl idx='1' name='r209ec7fba22a4ee68b8ce0a43a33c1e7' tag='INPUT' type='checkbox' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -573,7 +573,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:Click>
-            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchinfo(&quot;batchStatus&quot;).ToString]" sap:VirtualizedContainerService.HintSize="497,199" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[batchinfo(&quot;batchStatus&quot;).ToString]" sap:VirtualizedContainerService.HintSize="497,203" sap2010:WorkflowViewState.IdRef="Switch`1_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -867,18 +867,6 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'dialog  Save As'" sap:VirtualizedContainerService.HintSize="497,134" sap2010:WorkflowViewState.IdRef="TypeInto_25" Text="%[k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(enter)]C:\Users\Public\Public Downloads[k(enter)]">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="86a34b72-4541-43a2-a231-bcb7c1e2d688" InformativeScreenshot="98a70f9283e580136767c1a0ac949e58" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Save As' /&gt;&lt;ctrl name='Save As' role='dialog' /&gt;">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
             <ui:GetLastDownloadedFile Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="C:\Users\Public\Downloads" File="[reportPDF]" sap:VirtualizedContainerService.HintSize="497,433" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1">
               <ui:GetLastDownloadedFile.Body>
                 <ActivityAction>
@@ -888,9 +876,9 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_24" SimulateType="False" Text="[saveName+ &quot;[k(enter)]&quot;]">
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBetweenKeys="50" DisplayName="Type Into 'dialog  Save As'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_25" Text="[saveName + &quot;[k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(enter)]C:\Users\Public\Public Downloads[k(enter)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(tab)][k(enter)]&quot;]">
                       <ui:TypeInto.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3b13d67f-9458-4426-9c24-bdef4aa52116" InformativeScreenshot="343f95a97b7dfd7ff78e38c3a6aa1c11" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Save As' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="86a34b72-4541-43a2-a231-bcb7c1e2d688" InformativeScreenshot="98a70f9283e580136767c1a0ac949e58" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Save As' /&gt;&lt;ctrl name='Save As' role='dialog' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
