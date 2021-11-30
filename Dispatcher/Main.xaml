@@ -95,12 +95,8 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Survey Response Excel Sheet workflow" sap:VirtualizedContainerService.HintSize="918,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Survey Response Excel Sheet.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Auditor1">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_auditor" />
-        </InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="CaliberSchedule">
-          <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="auditedBatches" />
-        </OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Auditor1">[in_auditor]</InArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="CaliberSchedule">[auditedBatches]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[auditedBatches]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="918,1013" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
@@ -234,7 +230,7 @@
                       <OutArgument x:TypeArguments="x:Object">[batchInfo("trainerName")]</OutArgument>
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
-                      <InArgument x:TypeArguments="x:Object">["Jon"]</InArgument>
+                      <InArgument x:TypeArguments="x:Object">[in_auditor]</InArgument>
                     </ui:AssignOperation.Value>
                   </ui:AssignOperation>
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
