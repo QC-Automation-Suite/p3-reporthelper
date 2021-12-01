@@ -115,7 +115,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ucas:DownloadStorageFile TimeoutMS="{x:Null}" Destination="Dummy QC Schedule Copy.xlsx" DisplayName="Download Storage File" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="434,185" sap2010:WorkflowViewState.IdRef="DownloadStorageFile_1" Path="Dummy QC Schedule Copy.xlsx" StorageBucketName="Excel Sheets" />
+    <ucas:DownloadStorageFile TimeoutMS="{x:Null}" Destination="Dummy QC Schedule Copy.xlsx" DisplayName="Download Storage File" FolderPath="QcReportHelper" sap:VirtualizedContainerService.HintSize="434,185" sap2010:WorkflowViewState.IdRef="DownloadStorageFile_1" Path="Dummy QC Schedule Copy.xlsx" StorageBucketName="Excel Sheets" />
     <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="Dummy QC Schedule Copy.xlsx">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">

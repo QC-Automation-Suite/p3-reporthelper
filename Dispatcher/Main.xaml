@@ -244,7 +244,7 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" FolderPath="shared" sap:VirtualizedContainerService.HintSize="842,22" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" ItemInformationCollection="[batchInfo]" Priority="Normal" QueueType="justAqueue">
+            <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" FolderPath="QcReportHelper" sap:VirtualizedContainerService.HintSize="842,22" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" ItemInformationCollection="[batchInfo]" Priority="Normal" QueueType="justAqueue">
               <ui:AddQueueItem.ItemInformation>
                 <scg:Dictionary x:TypeArguments="x:String, InArgument" />
               </ui:AddQueueItem.ItemInformation>
