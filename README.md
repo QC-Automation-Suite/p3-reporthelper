@@ -28,3 +28,44 @@ The QC Report Helper Robot is here to help make the process of finishing and fil
 - Excel Automation
 - Attended Automation
 - Git
+
+------------
+------------
+
+_Documentation_ 
+
+## General Information
+
+QC Report Helper is an automation designed to store and implement data. Stored data will be extracted from data given by Caliber and Survey Monkey. This data will automatically fill the required fields of a survey in MS Forms; excluding three required manual inputs. At its’ end, the automation will create a pdf file and send it in an email.
+
+## Automation Inputs
+
+in_auditor (website input that selects desired information from automation)
+in_email (website input that that selects desired email to send PDF from automation)
+
+
+## Automation Outputs
+
+Report.Helper.Dispacter – Dictionary to Orchestrator Queue
+Report.Helper.Performer – Queue to MS Forms
+
+## Startup documentation
+
+Open website at https://cloud.uipath.com/revaturemdamle/apps_/default/run/production/ID2faaf178bcab4bc5a9b4619c5b6b2d6b?origin=appsHomePage.
+Sign in with Microsoft Account
+Input auditor name and email
+
+## License Prerequisites 
+
+UiPath Unattended & Attended Robots
+Orchestrator Community Edition
+
+## Software Prerequisites
+
+Windows 10
+UiPath 2021.10.3
+
+## UiPath Studio Project Dependencies (minimum package version requirements)
+
+Default
+
