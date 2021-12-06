@@ -78,6 +78,18 @@
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Sequence-Filter Data" sap:VirtualizedContainerService.HintSize="549,1701" sap2010:WorkflowViewState.IdRef="Sequence_35">
@@ -260,7 +272,7 @@
               <OutArgument x:TypeArguments="x:Double">[TrainingSatisfaction]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Double">[TrainingSatisfaction/(dt2FilteredDummyResponses.rows.count-1)]</InArgument>
+              <InArgument x:TypeArguments="x:Double">[TrainingSatisfaction/(dt2FilteredDummyResponses.rows.count)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_45">
@@ -268,7 +280,7 @@
               <OutArgument x:TypeArguments="x:Double">[Understanding]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Double">[Understanding/(dt2FilteredDummyResponses.rows.count-1)]</InArgument>
+              <InArgument x:TypeArguments="x:Double">[Understanding/(dt2FilteredDummyResponses.rows.count)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_46">
@@ -276,7 +288,7 @@
               <OutArgument x:TypeArguments="x:Double">[HelpfulMaterials]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Double">[HelpfulMaterials/(dt2FilteredDummyResponses.rows.count-1)]</InArgument>
+              <InArgument x:TypeArguments="x:Double">[HelpfulMaterials/(dt2FilteredDummyResponses.rows.count)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_47">
@@ -284,7 +296,7 @@
               <OutArgument x:TypeArguments="x:Double">[Organization]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Double">[Organization/(dt2FilteredDummyResponses.rows.count-1)]</InArgument>
+              <InArgument x:TypeArguments="x:Double">[Organization/(dt2FilteredDummyResponses.rows.count)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_48">
@@ -292,7 +304,7 @@
               <OutArgument x:TypeArguments="x:Double">[QuestionsEncouraged]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Double">[QuestionsEncouraged/(dt2FilteredDummyResponses.rows.count-1)]</InArgument>
+              <InArgument x:TypeArguments="x:Double">[QuestionsEncouraged/(dt2FilteredDummyResponses.rows.count)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_49">
@@ -300,7 +312,7 @@
               <OutArgument x:TypeArguments="x:Double">[TrainingExpectation]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Double">[TrainingExpectation/(dt2FilteredDummyResponses.rows.count-1)]</InArgument>
+              <InArgument x:TypeArguments="x:Double">[TrainingExpectation/(dt2FilteredDummyResponses.rows.count)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>

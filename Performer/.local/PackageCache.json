@@ -2,18 +2,61 @@
   "Packages": [
     {
       "Package": {
-        "Id": "BalaReva.Excel.Activities",
-        "Version": "2021.0.0"
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.12.3"
       },
       "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.Base.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.Utilities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities/2021.0.0\\lib/BalaReva.Excel.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoftofficecore/15.0.0\\lib/net35/Office.dll"
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client/4.32.0\\lib/net461/Microsoft.Identity.Client.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop/4.32.0\\lib/net461/Microsoft.Identity.Client.Desktop.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Core.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.context/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.coordination/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.interop.waithandles/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.oop/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.tasks/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.cancellation/1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.collections.deque/1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\nito.disposables/2.2.0\\lib/net461/Nito.Disposables.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient/1.0.0-20210921.1\\lib/net461/ConnectionClient.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Interop.Domino.UiPath.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Outlook.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Office.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.MainSessionServer.Shared.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0"
+      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3"
     },
     {
       "Package": {
@@ -135,64 +178,6 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.12.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client/4.32.0\\lib/net461/Microsoft.Identity.Client.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop/4.32.0\\lib/net461/Microsoft.Identity.Client.Desktop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Core.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2/1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.context/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.coordination/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.interop.waithandles/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.oop/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex.tasks/5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.cancellation/1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.collections.deque/1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\nito.disposables/2.2.0\\lib/net461/Nito.Disposables.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.connectionclient/1.0.0-20210921.1\\lib/net461/ConnectionClient.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Interop.Domino.UiPath.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Outlook.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/Office.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.Activities.Package.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.Mail.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities/1.12.3\\lib/net461/UiPath.MainSessionServer.Shared.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3"
     }
   ],
   "Conflicts": [],
@@ -230,20 +215,6 @@
       "Id": "AvalonEdit",
       "Version": "5.0.3",
       "Dependencies": []
-    },
-    "BalaReva.Excel.Activities": {
-      "Id": "BalaReva.Excel.Activities",
-      "Version": "2021.0.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Office.Interop.Excel",
-          "Item2": "[15.0.4795.1000, )"
-        },
-        {
-          "Item1": "MicrosoftOfficeCore",
-          "Item2": "[15.0.0, )"
-        }
-      ]
     },
     "CsvHelper": {
       "Id": "CsvHelper",
@@ -720,11 +691,6 @@
         }
       ]
     },
-    "Microsoft.Office.Interop.Excel": {
-      "Id": "Microsoft.Office.Interop.Excel",
-      "Version": "15.0.4795.1000",
-      "Dependencies": []
-    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -758,11 +724,6 @@
           "Item2": "[4.6.0, )"
         }
       ]
-    },
-    "MicrosoftOfficeCore": {
-      "Id": "MicrosoftOfficeCore",
-      "Version": "15.0.0",
-      "Dependencies": []
     },
     "MimeKit": {
       "Id": "MimeKit",
@@ -1442,19 +1403,6 @@
     },
     {
       "Package": {
-        "Id": "BalaReva.Excel.Activities",
-        "Version": "2021.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Base.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Utilities.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0"
-    },
-    {
-      "Package": {
         "Id": "CsvHelper",
         "Version": "16.0.0"
       },
@@ -1840,16 +1788,6 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.Office.Interop.Excel",
-        "Version": "15.0.4795.1000"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\lib\\net20\\Microsoft.Office.Interop.Excel.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000"
-    },
-    {
-      "Package": {
         "Id": "Microsoft.Rest.ClientRuntime",
         "Version": "2.3.21"
       },
@@ -1887,16 +1825,6 @@
       },
       "Assemblies": [],
       "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.17763.1000"
-    },
-    {
-      "Package": {
-        "Id": "MicrosoftOfficeCore",
-        "Version": "15.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\nryma\\.nuget\\packages\\microsoftofficecore\\15.0.0\\lib\\net35\\Office.dll"
-      ],
-      "Path": "C:\\Users\\nryma\\.nuget\\packages\\microsoftofficecore\\15.0.0"
     },
     {
       "Package": {
@@ -2287,8 +2215,8 @@
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\Microsoft.Office.Interop.Word.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\Office.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.Activities.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.Mail.dll",
         "C:\\Users\\nryma\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib\\net461\\UiPath.MainSessionServer.Shared.dll"
       ],

@@ -45,22 +45,6 @@
           "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "BalaReva.Excel.Activities/2021.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Office.Interop.Excel": "15.0.4795.1000",
-          "MicrosoftOfficeCore": "15.0.0"
-        },
-        "compile": {
-          "lib/_._": {}
-        },
-        "runtime": {
-          "lib/BalaReva.Excel.Base.dll": {},
-          "lib/BalaReva.Excel.Design.dll": {},
-          "lib/BalaReva.Excel.Utilities.dll": {},
-          "lib/BalaReva.Excel.dll": {}
-        }
-      },
       "CsvHelper/16.0.0": {
         "type": "package",
         "dependencies": {
@@ -733,15 +717,6 @@
           "lib/net461/Microsoft.Identity.Client.Desktop.dll": {}
         }
       },
-      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
-        "type": "package",
-        "compile": {
-          "lib/net20/_._": {}
-        },
-        "runtime": {
-          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
-        }
-      },
       "Microsoft.Rest.ClientRuntime/2.3.21": {
         "type": "package",
         "dependencies": {
@@ -804,15 +779,6 @@
         },
         "build": {
           "build/_._": {}
-        }
-      },
-      "MicrosoftOfficeCore/15.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net35/_._": {}
-        },
-        "runtime": {
-          "lib/net35/Office.dll": {}
         }
       },
       "MimeKit/2.10.0": {
@@ -2063,22 +2029,6 @@
           "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "BalaReva.Excel.Activities/2021.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Office.Interop.Excel": "15.0.4795.1000",
-          "MicrosoftOfficeCore": "15.0.0"
-        },
-        "compile": {
-          "lib/_._": {}
-        },
-        "runtime": {
-          "lib/BalaReva.Excel.Base.dll": {},
-          "lib/BalaReva.Excel.Design.dll": {},
-          "lib/BalaReva.Excel.Utilities.dll": {},
-          "lib/BalaReva.Excel.dll": {}
-        }
-      },
       "CsvHelper/16.0.0": {
         "type": "package",
         "dependencies": {
@@ -2751,15 +2701,6 @@
           "lib/net461/Microsoft.Identity.Client.Desktop.dll": {}
         }
       },
-      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
-        "type": "package",
-        "compile": {
-          "lib/net20/_._": {}
-        },
-        "runtime": {
-          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
-        }
-      },
       "Microsoft.Rest.ClientRuntime/2.3.21": {
         "type": "package",
         "dependencies": {
@@ -2819,15 +2760,6 @@
         },
         "build": {
           "build/_._": {}
-        }
-      },
-      "MicrosoftOfficeCore/15.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net35/_._": {}
-        },
-        "runtime": {
-          "lib/net35/Office.dll": {}
         }
       },
       "MimeKit/2.10.0": {
@@ -4078,20 +4010,6 @@
         "lib/Net40/ICSharpCode.AvalonEdit.xml"
       ]
     },
-    "BalaReva.Excel.Activities/2021.0.0": {
-      "sha512": "wNt9V2K11KZ6L7HPF+IP7sU+qidduP4VVZycJA188jR5klcTDHzWUKCE94Hs5x7Uhj+iaw89W6chXxl6Qqg22g==",
-      "type": "package",
-      "path": "balareva.excel.activities/2021.0.0",
-      "files": [
-        ".nupkg.metadata",
-        "balareva.excel.activities.2021.0.0.nupkg.sha512",
-        "balareva.excel.activities.nuspec",
-        "lib/BalaReva.Excel.Base.dll",
-        "lib/BalaReva.Excel.Design.dll",
-        "lib/BalaReva.Excel.Utilities.dll",
-        "lib/BalaReva.Excel.dll"
-      ]
-    },
     "CsvHelper/16.0.0": {
       "sha512": "ZHuVi+c8T/3ksqqCvY6nOWlJvOK+W+0Hnnlucg7lIZA6iSGQ162+998gwXxoBfSaDUp0/cDlrTMq2wnRohErOQ==",
       "type": "package",
@@ -5055,18 +4973,6 @@
         "microsoft.identity.client.desktop.nuspec"
       ]
     },
-    "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
-      "sha512": "DfceS96ustwfL8EOJNNRtpk6b0RylhjNpgeeemuvi9X4GYks2UTeAimjSrdFEfuqRo5ibZ4Sd0gJIeDr9gMa6Q==",
-      "type": "package",
-      "path": "microsoft.office.interop.excel/15.0.4795.1000",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net20/Microsoft.Office.Interop.Excel.dll",
-        "microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
-        "microsoft.office.interop.excel.nuspec"
-      ]
-    },
     "Microsoft.Rest.ClientRuntime/2.3.21": {
       "sha512": "KDYlgTyO693V6pi6SGk9eg+dDvKjuOgmkapbHdpnB1SmTPKpvWxVLIMyARJsCFLfB6axyURUJHOfvxBQ0yJKeg==",
       "type": "package",
@@ -5359,18 +5265,6 @@
         "ref/netstandard2.0/en/Windows.UI.Xaml.Hosting.HostingContract.xml",
         "ref/netstandard2.0/en/Windows.Web.Http.Diagnostics.HttpDiagnosticsContract.xml",
         "ref/netstandard2.0/windows.winmd"
-      ]
-    },
-    "MicrosoftOfficeCore/15.0.0": {
-      "sha512": "/KgYw8uvv0Ut8FPvyEa1XJ/TrLSRgvTv3JgC2IT0/8NwoICzbEJWfmfwsE6Dwi8WH0jVkTEO7zRvGvaKqUOhqQ==",
-      "type": "package",
-      "path": "microsoftofficecore/15.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/Office.dll",
-        "microsoftofficecore.15.0.0.nupkg.sha512",
-        "microsoftofficecore.nuspec"
       ]
     },
     "MimeKit/2.10.0": {
@@ -7151,7 +7045,6 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "BalaReva.Excel.Activities >= 2021.0.0 <= 2021.0.0",
       "UiPath.Mail.Activities >= 1.12.3 <= 1.12.3",
       "UiPath.System.Activities >= 21.10.2 <= 21.10.2",
       "UiPath.UIAutomation.Activities >= 20.10.9 <= 20.10.9"
@@ -7171,11 +7064,6 @@
     "frameworks": {
       "net461": {
         "dependencies": {
-          "BalaReva.Excel.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[2021.0.0, 2021.0.0]"
-          },
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",

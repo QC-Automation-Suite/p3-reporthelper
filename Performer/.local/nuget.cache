@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LDZzLpE6vDIPR7mxzW6SsygJpMD2zDj5hLZH8qu9oiztlpy60EqPvrHyDUP/BGVbB/mLnCZzpEHaUOEV2q8Log==",
+  "dgSpecHash": "A03aHlwGcBQrEDLwYpTtc1bTpi9RJUGBmxbFXVb5/4HAb4keD0mXD3mFMI6xsm+weWz+eNWA95qgLMc9wzbaZg==",
   "success": true,
   "projectFilePath": "C:\\Revature\\p3\\p3-reporthelper\\Performer\\.local\\",
   "expectedPackageFiles": [
@@ -8,7 +8,6 @@
     "C:\\Users\\nryma\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
-    "C:\\Users\\nryma\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\balareva.excel.activities.2021.0.0.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\extended.wpf.toolkit.3.8.1.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\google.apis\\1.43.0\\google.apis.1.43.0.nupkg.sha512",
@@ -47,12 +46,10 @@
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client\\4.32.0\\microsoft.identity.client.4.32.0.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.identity.client.desktop\\4.32.0\\microsoft.identity.client.desktop.4.32.0.nupkg.sha512",
-    "C:\\Users\\nryma\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.web.webview2\\1.0.705.50\\microsoft.web.webview2.1.0.705.50.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.17763.1000\\microsoft.windows.sdk.contracts.10.0.17763.1000.nupkg.sha512",
-    "C:\\Users\\nryma\\.nuget\\packages\\microsoftofficecore\\15.0.0\\microsoftofficecore.15.0.0.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\mimekit\\2.10.0\\mimekit.2.10.0.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\nryma\\.nuget\\packages\\nito.asyncex\\5.1.0\\nito.asyncex.5.1.0.nupkg.sha512",
