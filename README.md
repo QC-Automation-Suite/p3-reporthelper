@@ -53,11 +53,14 @@ The QC Report Helper Robot is here to help make the process of finishing and fil
 
 <ins>Steps For Orchestrator</ins>
 
-Queue 
+Queue
+
 -Create a queue name justAqueue
 
 Queue Trigger
+
 -For queue item select justAqueue 
+
 -For process name select the process Report.Helper.Performer.
 
 <ins>Steps For Web App</ins>
