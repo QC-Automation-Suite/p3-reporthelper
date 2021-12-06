@@ -51,7 +51,7 @@ The QC Report Helper Robot is here to help make the process of finishing and fil
 
 ## Startup documentation
 
-Steps For Orchestrator
+<ins>Steps For Orchestrator</ins>
 
 Queue 
 -Create a queue name justAqueue
@@ -60,7 +60,7 @@ Queue Trigger
 -For queue item select justAqueue 
 -For process name select the process Report.Helper.Performer.
 
-Steps For Web App
+<ins>Steps For Web App</ins>
 
 Open website at https://cloud.uipath.com/revaturemdamle/apps_/default/run/production/ID2faaf178bcab4bc5a9b4619c5b6b2d6b?origin=appsHomePage.
 
