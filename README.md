@@ -66,8 +66,10 @@ Queue Trigger
 Storage Bucket
 
 Create Storage Bucket "Excel Sheets"
-Add the Excel file Dummy_Survey_Responses
-Add the Excel file QC_Scheduler
+
+-Add the Excel file Dummy_Survey_Responses
+
+-Add the Excel file QC_Scheduler
 
 <ins>Steps For Web App</ins>
 
