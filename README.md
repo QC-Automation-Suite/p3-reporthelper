@@ -65,7 +65,7 @@ Queue Trigger
 
 Storage Bucket
 
-Create Storage Bucket "Excel Sheets"
+-Create Storage Bucket "Excel Sheets"
 
 -Add the Excel file Dummy_Survey_Responses
 
