@@ -63,6 +63,12 @@ Queue Trigger
 
 -For process name select the process Report.Helper.Performer.
 
+Storage Bucket
+
+Create Storage Bucket "Excel Sheets"
+Add the Excel file Dummy_Survey_Responses
+Add the Excel file QC_Scheduler
+
 <ins>Steps For Web App</ins>
 
 Open website at https://cloud.uipath.com/revaturemdamle/apps_/default/run/production/ID2faaf178bcab4bc5a9b4619c5b6b2d6b?origin=appsHomePage.
